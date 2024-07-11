@@ -1,0 +1,160 @@
+
+
+body {
+	font-family: "Bona Nova SC", serif;
+	font-size: 14px;
+}
+.bg-white{
+	background-color: #fff;
+	padding: 40px;
+}
+.bg-color {
+	background: linear-gradient(110deg, #770c1b 0%, rgb(87, 27, 64) 35%, rgb(67, 37, 213) 100%);
+	box-shadow: 0 0.5rem 1rem rgba(250, 245, 245, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+
+
+/* header area start */
+
+.menu-bar {
+	margin-top: 28px;
+}
+.menu-logo img {
+	width: 25%;
+}
+
+.menu-bar ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 0 20px;
+    text-transform: uppercase;
+}
+.menu-bar ul li a {
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+.menu-bar ul li a:hover {
+	color: #f00;
+	transition: .5s;
+}
+.form-area {
+    padding-top: 50px;
+    text-align: center;
+    height: 155vh;
+	width: 100%;
+	background: #095e47;
+	background: linear-gradient(110deg, #770c1b 0%, rgb(87, 27, 64) 35%, rgb(67, 37, 213) 100%);
+}
+
+/* header area end */
+
+
+
+/* form-area start */
+.hed-f p {
+	color: #1704ff;
+	font-size: 28px;
+	text-transform: uppercase;
+	line-height: 0;
+	text-decoration: underline brown 2px;
+	margin-bottom: 70px;
+}
+
+.name {
+	font-size: 16px;
+	display: flex;
+	margin-bottom: 8px;
+	letter-spacing: 1.5px;
+}
+.name span {
+	color: #ff0404;
+	padding-right: 3px;
+}
+.col-3 {
+	width: 32.333%;
+	display: inline-block;
+	margin-right: 5px;
+}
+.col-3 input {
+	width: 98%;
+	padding: 10px 10px;
+	border-radius: 5px;
+	font-size: 13px;
+	outline: none;
+	border: 2px solid #14093330;
+	margin-bottom: 28px;
+}
+
+#homedistrict {
+	width: 98%;
+	padding: 10px 10px;
+	background: #fff;
+	border-radius: 5px;
+	outline: none;
+	border: 2px solid #14093330;
+	font-size: 17px;
+}
+.col-5{
+	width: 48.4995%;
+	display: inline-block;
+	margin-right: 5px;
+}
+#address{
+	width: 98%;
+	height: 20vh;
+	font-size: 14px;
+	text-align: center;
+	border-radius: 5px;	
+	outline: none;
+	border: 2px solid #14093330;
+	padding: 10px;
+
+}
+#comment{
+	width: 97.1%;	
+	height: 20vh;
+	font-size: 14px;
+	text-align: center;
+	border-radius: 5px;
+	outline: none;
+	border: 2px solid #14093330;
+	padding: 10px;
+
+}
+/* form-area end */
+
+
+
+
+/* Button Area Start */
+.button-area {
+	margin-top: 20px;
+}
+
+.buttu{
+	background: linear-gradient(110deg, #770c1b 0%, rgb(87, 27, 64) 35%, rgb(67, 37, 213) 100%) !important; 
+}
+.but {
+	font-size: 18px;
+	color: white;
+	margin-right: 2px;
+	border: 1px solid #14093330;
+	padding: 10px 10px;
+	border-radius: 5px;
+	background: #2569C3;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+}
+.but:hover {
+	background: #015873;
+	transition: .7s ease-in-out;
+	color: #07f04c;
+}
+/* Button Area End */
